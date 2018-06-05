@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Assessor/NodeJs-Chat.git"
+  },
+  "author": "Ivan Maltsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Assessor/NodeJs-Chat/issues"
+  },
+  "homepage": "https://github.com/Assessor/NodeJs-Chat#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
